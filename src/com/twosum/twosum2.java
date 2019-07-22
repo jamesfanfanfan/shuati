@@ -1,4 +1,4 @@
-package com.company;
+package com.twosum;
 import java.util.*;
 //faster version of the two sum
 //the runtime complexity of this algorithm is big o N;

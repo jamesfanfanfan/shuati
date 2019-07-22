@@ -1,7 +1,7 @@
-package com.company;
-import java.util.*;
-//brutal version
+package com.twosum;
 
+//brutal version
+//
 class Solution {
     public int[] twoSum(int[] nums, int target) {
             int count = nums.length;
