@@ -36,3 +36,29 @@ class twosum2 {
         return result;
     }
 }
+
+//the best version for two_sum
+//class Solution {
+//    public int[] twoSum(int[] nums, int target) {
+//        Map<Integer,Integer> helper =new HashMap<>();
+//        int [] result=new int[2];
+//        int i=0;
+//        for(int e:nums){
+//
+//            helper.put(e,i);
+//            i+=1;
+//        }
+//
+//        for(int j=0;j<nums.length;j+=1){
+//            if(helper.containsKey(target-nums[j])){
+//                if(helper.get(target-nums[j])!=j){
+//                    result[0]=j;
+//                    result[1]=helper.get(target-nums[j]);
+//                    break;
+//                }
+//            }
+//
+//        }
+//        return result;
+//    }
+//}
