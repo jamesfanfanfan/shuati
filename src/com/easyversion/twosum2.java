@@ -1,4 +1,4 @@
-package com.twosum;
+package com.easyversion;
 import java.util.*;
 //faster version of the two sum
 //the runtime complexity of this algorithm is big o N;
@@ -61,4 +61,22 @@ class twosum2 {
 //        }
 //        return result;
 //    }
+//}
+
+//one way version for two sum(its like ask whether your mr right is in this room before you get into)
+// class Solution {
+//    public int[] twoSum(int[] nums, int target) {
+//        Map<Integer,Integer> helper =new HashMap<>();
+//        int [] result=new int[2];
+//        for(int i=0;i<nums.length;i+=1){
+//            if(helper.containsKey(target-nums[i])){
+//                result[0]=helper.get(target-nums[i]);
+//                result[1]=i;
+//                return result;
+//            }
+//            helper.put(nums[i],i);
+//        }
+//        throw new  IllegalArgumentException("No two sum solution");
+//    }
+//
 //}

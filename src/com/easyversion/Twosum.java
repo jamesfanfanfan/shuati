@@ -1,4 +1,4 @@
-package com.twosum;
+package com.easyversion;
 
 //brutal version
 //the runtime complexity of this algorithm is big o n*2
