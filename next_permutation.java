@@ -1,3 +1,4 @@
+import java.util.*;
 public class next_permutation {
     class Solution {
         public void nextPermutation(int[] nums) {
